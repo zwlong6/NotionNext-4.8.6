@@ -40,7 +40,7 @@ const LatestPostsGroup = ({ latestPosts, siteInfo }) => {
             href={post?.href}
             passHref
             className={'my-3 flex'}>
-            <div className='w-20 h-14 overflow-hidden relative'>
+            <div className='w-20 h-14 overflow-hidden relative rounded-md'>
               <LazyImage
                 alt={post?.title}
                 src={`${headerImage}`}
