@@ -45,21 +45,21 @@ module.exports = {
     },
     {
       name: 'oui',
-      artist: 'Matryoshka',
+      artist: 'Jeremih',
       url: 'https://music.163.com/song/media/outer/url?id=1876989425.mp3',
       cover:
         'http://p2.music.126.net/KPNVgKJNxTdGsGOYSIq9SQ==/109951166371057098.jpg'
     },
     {
       name: 'On the Run',
-      artist: 'Matryoshka',
+      artist: 'Postiljonen',
       url: 'https://music.163.com/song/media/outer/url?id=26612932.mp3',
       cover:
         'http://p2.music.126.net/WHMoeFEFeHln1bkq_mua2g==/109951163364887181.jpg'
     },
     {
       name: 'Laughing With',
-      artist: 'Matryoshka',
+      artist: 'Regina Spektor',
       url: 'https://music.163.com/song/media/outer/url?id=2705693702.mp3',
       cover:
         'http://p2.music.126.net/XFWRhEU1lR97_KTB9lzKGw==/109951170991855937.jpg'
