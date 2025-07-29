@@ -58,7 +58,7 @@ module.exports = {
         'http://p2.music.126.net/WHMoeFEFeHln1bkq_mua2g==/109951163364887181.jpg'
     },
     {
-      name: 'On the Run',
+      name: 'Laughing With',
       artist: 'Matryoshka',
       url: 'https://music.163.com/song/media/outer/url?id=2705693702.mp3',
       cover:
