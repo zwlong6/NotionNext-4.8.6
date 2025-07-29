@@ -118,7 +118,7 @@ const Comment = ({ frontMatter, className }) => {
 
           {COMMENT_GISCUS_REPO && (
             <div key='Giscus'>
-              <GiscusComponent className='px-2' />
+              <GiscusComponent className='px-2' theme='noborder_light'/>
             </div>
           )}
 
