@@ -8,9 +8,11 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
+  // HEO_NOTICE_BAR: [
+  //   { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+  //   { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+  // ],
 
   // 英雄区左右侧组件颠倒位置
   HEO_HERO_REVERSE: false,
@@ -149,7 +151,7 @@ const CONFIG = {
   HEO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
   HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
-  HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
+  HEO_WIDGET_LATEST_POSTS: false, // 显示最新文章卡
   HEO_WIDGET_ANALYTICS: false, // 显示统计卡
   HEO_WIDGET_TO_TOP: true,
   HEO_WIDGET_TO_COMMENT: true, // 跳到评论区
