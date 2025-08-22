@@ -24,6 +24,13 @@ const Footer = ({ title }) => {
         .<br />
         <BeiAnSite />
         <BeiAnGongAn />
+        <a 
+          href="https://icp.gov.moe/?keyword=20251218" 
+          target="_blank"
+          className="text-gray-600 dark:text-gray-100 hover:text-gray-800 dark:hover:text-gray-200 transition-colors duration-200"
+        >
+          萌ICP备20251218号
+        </a>
         <span className='hidden busuanzi_container_site_pv'>
           <i className='fas fa-eye' />
           <span className='px-1 busuanzi_value_site_pv'> </span>
