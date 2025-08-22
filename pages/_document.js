@@ -63,6 +63,13 @@ class MyDocument extends Document {
 
           {/* 预先设置深色模式，避免闪烁 */}
           <script dangerouslySetInnerHTML={{ __html: darkModeScript }} />
+
+          {/* Umami 分析脚本 */}
+          <script 
+            defer 
+            src="https://umami-test-xi.vercel.app/script.js" 
+            data-website-id="09ea27ef-b63d-4dc0-9153-86efa74317b4"
+          />
         </Head>
 
         <body>
