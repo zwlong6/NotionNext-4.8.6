@@ -7,6 +7,18 @@
 const Style = () => {
   return (
     <style jsx global>{`
+      // 设置game主题的字体为Mono字体
+      #theme-game {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 标题栏字体设置
+      #theme-game .font-bold,
+      #theme-game .font-black,
+      #theme-game .font-semibold {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
       // 底色
       .dark body {
         background-color: black;

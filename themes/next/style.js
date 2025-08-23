@@ -7,6 +7,18 @@
 const Style = () => {
   return (
     <style jsx global>{`
+      // 设置next主题的字体为Mono字体
+      #theme-next {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 标题栏字体设置
+      #theme-next .font-bold,
+      #theme-next .font-black,
+      #theme-next .font-semibold {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
       // 底色
       body {
         background-color: #eeedee;

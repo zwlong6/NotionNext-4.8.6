@@ -7,6 +7,18 @@
 const Style = () => {
   return (
     <style jsx global>{`
+      // 设置heo主题的字体为Mono字体
+      #theme-heo {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 标题栏字体设置
+      #theme-heo .font-bold,
+      #theme-hexo .font-black,
+      #theme-hexo .font-semibold {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
       body {
         background-color: #f7f9fe;
       }

@@ -17,6 +17,68 @@ const Style = () => {
         --theme-color: ${themeColor};
       }
 
+      // 设置hexo主题的字体为Mono字体
+      #theme-hexo {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 标题栏字体设置
+      #theme-hexo #sticky-nav {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 移动端标题栏字体设置
+      #theme-hexo #sticky-nav .font-medium {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // Hero区域的标题字体设置
+      #theme-hexo #header .font-black {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      #theme-hexo #header .font-medium {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // Logo字体设置
+      #theme-hexo .font-medium {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 所有粗体标题字体设置
+      #theme-hexo .font-bold {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      #theme-hexo .font-black {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      #theme-hexo .font-semibold {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 文章标题字体设置
+      #theme-hexo .leading-snug {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 目录标题字体设置
+      #theme-hexo .catalog-item {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 菜单项字体设置
+      #theme-hexo .menu-link {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
+      // 分页组件字体设置
+      #theme-hexo .pagination {
+        font-family: 'JetBrains Mono', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Menlo, Consolas, 'Liberation Mono', monospace !important;
+      }
+
       // 底色
       #theme-hexo body {
         background-color: #f5f5f5;
