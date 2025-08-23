@@ -9,7 +9,7 @@ export default function Logo({ siteInfo }) {
       href='/'
       className='logo rounded cursor-pointer flex flex-col items-center'>
       <div className='w-full'>
-        <h1 className='text-2xl dark:text-white font-bold font-serif'>
+        <h1 className='text-2xl dark:text-white font-bold font-mono'>
           {siteInfo?.title}
         </h1>
         <h2 className='text-xs text-gray-400 whitespace-nowrap'>

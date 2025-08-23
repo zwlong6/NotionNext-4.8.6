@@ -181,7 +181,7 @@ export default function Header(props) {
           </div>
 
           {/* 移动端显示开关 */}
-          <div className='mr-1 flex md:hidden justify-end items-center text-lg space-x-4 font-serif dark:text-gray-200'>
+          <div className='mr-1 flex md:hidden justify-end items-center text-lg space-x-4 font-mono dark:text-gray-200'>
             <div onClick={toggleMenuOpen} className='cursor-pointer p-2'>
               {isOpen ? (
                 <i className='fas fa-times' />

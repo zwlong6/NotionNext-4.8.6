@@ -29,7 +29,7 @@ export default function Header(props) {
             </div>
 
             <div className='flex-col flex justify-center'>
-              <div className='text-2xl font-serif dark:text-white py-2 hover:scale-105 transform duration-200'>
+              <div className='text-2xl font-mono dark:text-white py-2 hover:scale-105 transform duration-200'>
                 {siteConfig('AUTHOR')}
               </div>
               <div

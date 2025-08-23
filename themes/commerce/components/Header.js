@@ -99,7 +99,7 @@ export default function Header(props) {
         <LogoBar {...props} />
 
         {/* 移动端折叠按钮 */}
-        <div className='mr-1 flex md:hidden justify-end items-center text-lg space-x-4 font-serif dark:text-gray-200'>
+        <div className='mr-1 flex md:hidden justify-end items-center text-lg space-x-4 font-mono dark:text-gray-200'>
           <div onClick={toggleMenuOpen} className='cursor-pointer'>
             {isOpen ? (
               <i className='fas fa-times' />

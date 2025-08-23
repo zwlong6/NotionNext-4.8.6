@@ -25,7 +25,7 @@ export const MenuItemDrop = ({ link }) => {
         <Link
           href={link?.href}
           target={link?.target}
-          className={`${selected && 'border-b-2 border-[#D2232A]'} h-full flex space-x-1 whitespace-nowrap items-center font-sans menu-link pl-2 pr-4  dark:text-gray-200 no-underline tracking-widest pb-1`}>
+          className={`${selected && 'border-b-2 border-[#D2232A]'} h-full flex space-x-1 whitespace-nowrap items-center font-mono menu-link pl-2 pr-4  dark:text-gray-200 no-underline tracking-widest pb-1`}>
           {link?.icon && <i className={link?.icon} />} <div>{link?.name}</div>
           {/* {hasSubMenu && <i className='px-2 fa fa-angle-down'></i>} */}
         </Link>
@@ -33,7 +33,7 @@ export const MenuItemDrop = ({ link }) => {
 
       {hasSubMenu && (
         <>
-          <div className='h-full flex space-x-1 whitespace-nowrap items-center cursor-pointer font-sans menu-link pl-2 pr-4  dark:text-gray-200 no-underline tracking-widest pb-1'>
+          <div className='h-full flex space-x-1 whitespace-nowrap items-center cursor-pointer font-mono menu-link pl-2 pr-4  dark:text-gray-200 no-underline tracking-widest pb-1'>
             {link?.icon && <i className={link?.icon} />} <div>{link?.name}</div>
             {/* <i className={`px-2 fa fa-angle-down duration-300  ${show ? 'rotate-180' : 'rotate-0'}`}></i> */}
           </div>

@@ -107,7 +107,7 @@ export default function GameEmbed({ post, siteInfo }) {
             <i className='fas fa-chevron-left' />
           </Link>{' '}
           <span
-            className='font-serif px-1'
+            className='font-mono px-1'
             onClick={() => {
               document.querySelector('.game-info').scrollIntoView({
                 behavior: 'smooth',

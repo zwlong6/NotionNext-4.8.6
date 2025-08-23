@@ -38,7 +38,7 @@ function SiteInfo({ title }) {
           <span className='px-1 busuanzi_value_site_uv'> </span>
         </span>
         <br />
-        <span className='text-xs font-serif'>
+        <span className='text-xs font-mono'>
           Powered by
           <a
             href='https://github.com/tangly1024/NotionNext'

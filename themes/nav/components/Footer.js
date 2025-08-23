@@ -25,7 +25,7 @@ const Footer = ({ siteInfo }) => {
         © {`${copyrightDate}`}
       </div>
 
-      <div className='text-xs font-serif py-1'>
+      <div className='text-xs font-mono py-1'>
         Powered By{' '}
         <a
           href='https://github.com/tangly1024/NotionNext'

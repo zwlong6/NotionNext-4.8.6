@@ -44,7 +44,7 @@ const Header = props => {
           <div className='flex'></div>
 
           {/* 右侧功能 */}
-          <div className='mr-1 flex justify-end items-center text-sm space-x-4 font-serif dark:text-gray-200'>
+          <div className='mr-1 flex justify-end items-center text-sm space-x-4 font-mono dark:text-gray-200'>
             <div
               onClick={toggleMenuOpen}
               className='cursor-pointer text-lg p-2'>

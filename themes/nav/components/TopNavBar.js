@@ -67,7 +67,7 @@ export default function TopNavBar(props) {
       <div className='h-18 px-5'>
         <div className='absolute top-0 right-5'>
           {/* 搜索框、折叠按钮、仅移动端显示 */}
-          <div className='pt-1 flex md:hidden justify-end items-center space-x-3 font-serif dark:text-gray-200 '>
+          <div className='pt-1 flex md:hidden justify-end items-center space-x-3 font-mono dark:text-gray-200 '>
             <div className='relative md:hidden top-0 right-0'>
               <SearchInput className='my-3 rounded-full' />
             </div>
